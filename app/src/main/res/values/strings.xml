@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Aadhaar Address Update</string>
+    <string name="image_captcha">Image Captcha</string>
+    <string name="enter_captcha_value">Enter Captcha Value</string>
+    <string name="verify">Verify</string>
+    <string name="enter_aadhaar_number">Enter Aadhaar Number</string>
+    <string name="enter_otp_sent_to_registered_mobile">Enter OTP</string>
+    <string name="enter_share_code">Enter Share Code</string>
+    <string name="new_address_update_request">New Address Update Request</string>
+    <string name="pending_address_update_request">Pending Address Update Request</string>
+    <string name="pending_address_update_sent">Pending Address Update Sent</string>
+    <string name="send_address_update_request">Send Address Update Request</string>
+    <string name="requirer_aadhaar_uid">Requirer Aadhaar UID</string>
+    <string name="aadhaar_logo">Aadhaar Logo</string>
+    <string name="house">House</string>
+    <string name="street">Street</string>
+    <string name="landmark">Landmark</string>
+    <string name="village_town_city">Village/Town/City</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="submit">Submit</string>
+</resources>

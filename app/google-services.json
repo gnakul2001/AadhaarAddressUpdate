@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "381506757569",
+    "firebase_url": "https://aadharupdate-91d4b-default-rtdb.firebaseio.com",
+    "project_id": "aadharupdate-91d4b",
+    "storage_bucket": "aadharupdate-91d4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381506757569:android:36f8d3e3074fdc42570540",
+        "android_client_info": {
+          "package_name": "in.gov.uidai.aadhaaraddressupdate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381506757569-3hf3n06p0md6u687n2uied32meo8pn8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnTf1LfBG4Skuu6QLM9mIzwpCldBgJiwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381506757569-3hf3n06p0md6u687n2uied32meo8pn8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

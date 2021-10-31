@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateAddress"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/aadhaar_logo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/aadhaar_logo"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/aadhaar_logo"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/houseUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/house"
+        android:autofillHints="House"
+        android:inputType="text"
+        android:layout_below="@+id/aadhaar_logo"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/streetUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/street"
+        android:autofillHints="Street"
+        android:inputType="text"
+        android:layout_below="@+id/houseUpdate"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/landmarkUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/streetUpdate"
+        android:layout_marginTop="5dp"
+        android:autofillHints="Landmark"
+        android:hint="@string/landmark"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/vtcUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/village_town_city"
+        android:autofillHints="Village/Town/City"
+        android:inputType="text"
+        android:layout_below="@+id/landmarkUpdate"
+        android:layout_marginTop="5dp"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/distUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="District"
+        android:hint="@string/district"
+        android:inputType="text"
+        android:layout_below="@+id/vtcUpdate"
+        android:layout_marginTop="5dp"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/stateUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/state"
+        android:autofillHints="State"
+        android:inputType="text"
+        android:layout_below="@+id/distUpdate"
+        android:layout_marginTop="5dp"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/countryUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/country"
+        android:autofillHints="Country"
+        android:inputType="text"
+        android:layout_below="@+id/stateUpdate"
+        android:layout_marginTop="5dp"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/pcUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pin_code"
+        android:autofillHints="House"
+        android:inputType="text"
+        android:layout_below="@+id/countryUpdate"
+        android:layout_marginTop="5dp"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/updateAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_below="@+id/pcUpdate"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>
